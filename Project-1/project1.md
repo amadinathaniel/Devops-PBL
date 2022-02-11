@@ -1,4 +1,4 @@
-# LAMP Stack Implementation
+# Project 1 - LAMP Stack Implementation
 
 ## Step 1 - Installing Apache and Updating The Firewall
 - Update a list of packages in package manager
@@ -50,6 +50,7 @@
 `$ sudo apt install php libapache2-mod-php php-mysql -y`
 
 `$ php -v`
+
 ![Check PHP version](Screenshots/8.png)
 
 **LAMP stack has been installed completely and it is operational**
@@ -94,7 +95,7 @@ $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projec
 ```
 
 The below screen shot captures the commands run above
-![Commands output](Screenshots/11.png`)
+![Commands output](Screenshots/11.png)
 
 ![browser output](Screenshots/12.png)
 
