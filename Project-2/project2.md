@@ -83,7 +83,7 @@
 
 ![browser_output](Screenshots/browser_output.png)
 
-** LAMP stack is completely installed and fully operational.**
+**LEMP stack is completely installed and fully operational.**
 
 ## Step 5 – Testing PHP with Nginx
 - Open a new file called info.php within your document root in your text editor
@@ -92,7 +92,7 @@
 
 - Enter the following lines and save:
 
-```
+``` php
 <?php
 phpinfo();
 ```
