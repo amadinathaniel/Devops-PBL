@@ -147,7 +147,7 @@ Start the server by running
 - Create GET request using **Postman**
 ![get_request](Screenshots/get_request.png)
 
-- Create a DELETE request and verify with a GET request
+- Create a DELETE request and verify with a GET request using **Postman**
 	- Do a POST request to add a new task to the already existing task
 	![delete_request1](Screenshots/delete_request1.png)
 
