@@ -69,6 +69,7 @@ mkdir models && cd models && touch todo.js
 - Update *todo.js* file created
 
 `$ vim todo.js`
+
 ![create_mongodb_model](Screenshots/create_mongodb_model.png)
 
 - Update the route to include connection to the MongoDB mode
@@ -134,26 +135,29 @@ console.log(`Server running on port ${port}`)
 });
 ```
 Start the server by running
+
 `$ node index.js`
+
 ![database_connected](Screenshots/database_connected.png)
 
 ### Testing Backend Code without Frontend using RESTful API
 - Create POST request using **Postman**
-![post_request](post_request.png)
+![post_request](Screenshots/post_request.png)
 
 - Create GET request using **Postman**
 ![get_request](Screenshots/get_request.png)
 
 - Create a DELETE request and verify with a GET request
 	- Do a POST request to add a new task to the already existing task
-![delete_request1](Screenshots/delete_request1.png)
+	![delete_request1](Screenshots/delete_request1.png)
 
-![delete_request2](Screenshots/delete_request2.png)
+	![delete_request2](Screenshots/delete_request2.png)
 
 	- Do a DELETE request to delete the new task created
-![delete_request3](Screenshots/delete_request3.png)
+	![delete_request3](Screenshots/delete_request3.png)
 
 	-  Do a GET request to confirm that new task is deleted
+	![delete_request4](Screenshots/delete_request4.png)
 
 ## Step 2 – Frontend creation using ReactJS
 - In the Todo directory run the command below to create the directory for the React App
