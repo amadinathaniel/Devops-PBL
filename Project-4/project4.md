@@ -39,6 +39,7 @@ $ npm init
 
 
 - Copy and paste the web server code below into the server.js file.
+
 `$ vi server.js`
 
 ``` javascript
@@ -102,7 +103,7 @@ module.exports = function(app) {
   });
 };
 ```
-- In the ‘apps’ folder, create a folder named *models* and Create a file named book.js
+- In the *apps* folder, create a folder named *models* and Create a file named *book.js*
 ``` shell
 $ mkdir models && cd models`
 $ vi book.js
@@ -235,6 +236,7 @@ $ cd ..
 $ node server.js
 ```
 - Ensure the port is allowed in AWS Security Groups
+
 ![security_group](Screenshots/security_group.png)
 
 - Access the Page on the EC2 instance Public IP and Port specified in the express js wrapper and test run the page
