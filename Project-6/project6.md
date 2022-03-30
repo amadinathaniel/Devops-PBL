@@ -156,7 +156,7 @@ sudo mount -a
 sudo systemctl daemon-reload
 df -h
 ```
-![db_block_details](db_block_details.png)
+![db_block_details](Screenshots/db_block_details.png)
 
 ## Step 3 — Install the Web Service on the Web Server
 - Install Apache and other dependencies 
