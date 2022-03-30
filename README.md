@@ -11,6 +11,8 @@
 
 - Project 5 - [Client-Server Architecture with MySql](Project-5/project5.md)
 
+- Project 6 - [Web Solution with WordPress](Project-5/project5.md)
+
 ---
 
 - Aux Project 1 - [Shell script to create linux users with initialized ssh profiles](https://github.com/amadinathaniel/auxillary-projects)
