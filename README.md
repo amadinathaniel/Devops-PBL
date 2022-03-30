@@ -11,7 +11,7 @@
 
 - Project 5 - [Client-Server Architecture with MySql](Project-5/project5.md)
 
-- Project 6 - [Web Solution with WordPress](Project-5/project5.md)
+- Project 6 - [Web Solution with WordPress](Project-6/project6.md)
 
 ---
 
