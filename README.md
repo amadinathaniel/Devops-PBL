@@ -13,6 +13,8 @@
 
 - Project 6 - [Web Solution with WordPress](Project-6/project6.md)
 
+- Project 7 - [Devops Tooling Website Solution](Project-7/project7.md)
+
 ---
 
 - Aux Project 1 - [Shell script to create linux users with initialized ssh profiles](https://github.com/amadinathaniel/auxillary-projects)
