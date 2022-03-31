@@ -197,7 +197,7 @@ sudo setsebool -P httpd_use_nfs
 ``` shell
 sudo setsebool -P httpd_can_network_connect_db 1
 ```
-![httpd_service](Screenshots/httpd-service.png)
+![httpd_service](Screenshots/httpd_service.png)
 
 - Create in MySQL a new admin user with username: myuser and password: password:
 ``` mysql
