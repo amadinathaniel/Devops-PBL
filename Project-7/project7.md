@@ -79,7 +79,7 @@ sudo chmod -R 777 /mnt/opt
 sudo systemctl restart nfs-server.service
 ```
 
-Set up the file exports to allow access from the web server subnet (172.31.16.0/20
+- Set up the file exports to allow access from the web server subnet (172.31.16.0/20)
 ``` shell
 sudo vi /etc/exports
 /mnt/apps 172.31.16.0/20(rw,sync,no_all_squash,no_root_squash)
