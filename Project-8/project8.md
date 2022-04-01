@@ -63,7 +63,7 @@ sudo mount -a
 - Verify that load balancing works by accessing the load balancer site
 ![loadbalancer_access](Screenshots/loadbalancer_access.png)
 
-- Check that each server receives logs in when the load balancer IP Address is refreshed
+- Check that each server receives logs in the `/var/log/httpd/access_log` file when the load balancer IP Address is refreshed intermittently
 ![webservers_access_logs](Screenshots/webservers_access_logs.png)
 
 ## Optional Step – Configure Local DNS Names Resolution
