@@ -79,7 +79,7 @@ sudo chmod -R 777 /mnt/opt
 sudo systemctl restart nfs-server.service
 ```
 
-Set up the file exports to allow access from the web server subnet (172.31.16.0/20
+- Set up the file exports to allow access from the web server subnet (172.31.16.0/20)
 ``` shell
 sudo vi /etc/exports
 /mnt/apps 172.31.16.0/20(rw,sync,no_all_squash,no_root_squash)
@@ -197,7 +197,7 @@ sudo setsebool -P httpd_use_nfs
 ``` shell
 sudo setsebool -P httpd_can_network_connect_db 1
 ```
-![httpd_service](Screenshots/httpd-service.png)
+![httpd_service](Screenshots/httpd_service.png)
 
 - Create in MySQL a new admin user with username: myuser and password: password:
 ``` mysql
