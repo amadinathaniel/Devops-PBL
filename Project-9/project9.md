@@ -74,11 +74,11 @@ Navigate to `Manage Jenkins > Configure System > "Publish Over SSH"` configurati
 
 ![configure_ssh_plugin](Screenshots/configure_ssh_plugin.png)
 
-- open your Jenkins job/project configuration page and add another one "Post-build Action" -> "Send build artifacts over SSH"
+- Open your Jenkins job/project configuration page and add another one "Post-build Action" -> "Send build artifacts over SSH"
 
 ![sendbuild_over_SSH_plugin](Screenshots/sendbuild_over_SSH_plugin.png) 
 
-- Configure it to send all files probuced by the build into our previouslys define remote directory. 
+- Configure it to send all files produced by the build into our previously defined remote directory. 
 In our case we want to copy all files and directories – so we use `**`
 
 ![configure_sendoverSSH](Screenshots/configure_sendoverSSH.png)
