@@ -17,6 +17,8 @@
 
 - Project 8 - [Load Balancer Solution With Apache](Project-8/project8.md)
 
+- Project 9 - [Continous Integration Pipeline For Tooling Website](Project-9/project9.md)
+
 ---
 
 - Aux Project 1 - [Shell script to create linux users with initialized ssh profiles](https://github.com/amadinathaniel/auxillary-projects)
