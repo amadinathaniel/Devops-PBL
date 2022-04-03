@@ -1,7 +1,9 @@
 # Project 10 - Load Balancer Solution With Nginx and SSL/TLS
 
 ## Architecture
-In this project, we are utilizing the servers implemented in [Project 7](../Project-7/project7.md and including a load balancer solution using Nginx
+In this project, we are utilizing the servers implemented in [Project 7](../Project-7/project7.md) and including a load balancer solution using Nginx
+
+![project10_architecture](Screenshots/project10_architecture.png)
 
 ## Step 1 - Launch the Nginx server
 - Launch a new ec2 instance and open ports 80 for HTTP and 443 for HTTPS
