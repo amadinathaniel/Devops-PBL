@@ -100,7 +100,7 @@ sudo certbot --nginx
 
 - Verify that the ssl certificate files were added to the nginx conf file 
 
-![view_certbot_certificates](Screenshots/add_domain_Arecord/view_certbot_certificates.png)
+![view_certbot_certificates](Screenshots/view_certbot_certificates.png)
 
 - Verify site is accessible on https
 
