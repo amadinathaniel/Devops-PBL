@@ -96,7 +96,7 @@ ssh-add ./devops-pbl
 	- Create a directory and a file inside it
 	- Change timezone on the LB server
 	- Run some shell script to insert new line to the file
-Ensure proper indentation is set
+- Ensure proper indentation is set
 
 ``` yaml
 ---
