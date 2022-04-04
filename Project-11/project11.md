@@ -8,7 +8,7 @@
 ## Step 1 Install Ansible on the EC2 instance
 - Update Name tag on your `Jenkins` EC2 Instance to `Jenkins-Ansible`. We will use this server to run playbooks.
 
-- Instal Ansible
+- Install Ansible
 ``` shell
 sudo hostnamectl set-hostname Jenkins-Ansible
 bash
@@ -96,7 +96,7 @@ ssh-add ./devops-pbl
 	- Create a directory and a file inside it
 	- Change timezone on the LB server
 	- Run some shell script to insert new line to the file
-	- Ensure indentation is set to spaces and not tabs
+Ensure proper indentation is set
 
 ``` yaml
 ---
@@ -189,4 +189,4 @@ rm -r ~/.ansible/cp
 
 ## Final Architecture
 
-![final_architecture_project11](Screenshot/final_architecture_project11.png)
+![final_architecture_project11](Screenshots/final_architecture_project11.png)
