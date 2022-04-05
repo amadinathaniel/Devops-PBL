@@ -25,7 +25,7 @@
 
 - Project 12 - [Ansible refactoring and static assignments (imports and roles)]((Project-12/project12.md))
 
-- Project 13 - [Ansible Dynamic Assignments (Include) and Community Roles](Project-13/project13)
+- Project 13 - [Ansible Dynamic Assignments (Include) and Community Roles](Project-13/project13.md)
 ---
 
 - Aux Project 1 - [Shell script to create linux users with initialized ssh profiles](https://github.com/amadinathaniel/auxillary-projects)
