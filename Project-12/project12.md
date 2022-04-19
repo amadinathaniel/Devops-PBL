@@ -95,7 +95,7 @@ git push --set-upstream origin refactor
 - Access the Jenkins-Ansible server and run the ssh-agent service
 ``` shell
 eval `ssh-agent -s`
-ssh-add pbl-projects.pem
+ssh-add devops-pbl.pem
 ```
 
 - Run the ansible command using the site.yml
