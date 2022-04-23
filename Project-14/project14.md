@@ -2,7 +2,9 @@
 
 ## Step 1: Simulating a typical CI/CD Pipeline for a PHP Based application
 
-**Setup**
+Setup
+---
+
 - Create the relevant inventory files as shown below
 ---
 Ansible inventory should look like this:
@@ -216,12 +218,12 @@ sudo apt install ansible -y
 	host_key_checking = False
 	gather_subset = !hardware
 	roles_path = /home/ubuntu/ansible-config-artifact/roles
-	```
-		- debug to set ansible debug in case one needs to troubleshoot (optional)
-		- gathering to set ansible gathering facts method (optional)
-		- host_key_checking to disable strict host checks of servers (optional)
-		- gather_subset to limit facts that ansible gathers (optional)
-		- roles_path to set the roles_path
+
+		- `debug` to set ansible debug in case one needs to troubleshoot (optional)
+		- `gathering` to set ansible gathering facts method (optional)
+		- `host_key_checking` to disable strict host checks of servers (optional)
+		- `gather_subset` to limit facts that ansible gathers (optional)
+		- `roles_path` to set the roles_path
   
 	- Pass its path as an environment variable to JENKINS. The name ANSIBLE_CONFIG is recognized by ansible for declaring the path to the required ansible.cfg
 	```groovy
@@ -618,7 +620,7 @@ stage ('Upload Artifact to Artifactory') {
 
 **Blocker:** For this to work, you have to create a local repository on your Artifactory with package type as Generic and Repository Key as the name of the repo (PBL in this case)
 
-[create_local_repositories](Screenshots/create_local_repositories.png)
+![create_local_repositories](Screenshots/create_local_repositories.png)
 
 - Deploy application to dev environment by launching the Ansible pipeline
 ```groovy
@@ -658,9 +660,9 @@ The following steps were already configured in the [roles](https://github.com/am
 - Install and Setup PostgreSQL 10 Database for SonarQube
 - Install and configure SonarQube
 
-**Tune Linux Kernel**
+Tune Linux Kernel
 ---
-Note that this step is already covered in the [sonarqube playbook](https://github.com/amadinathaniel/Devops-PBL/blob/main/Project-14/project14.md#sonarqube_playbook)
+Note that this step is already covered in the [sonarqube playbook](https://github.com/amadinathaniel/Devops-PBL/blob/main/Project-14/project14.md#step-3-configure-sonarqube)
 ```bash
 sudo sysctl -w vm.max_map_count=262144
 sudo sysctl -w fs.file-max=65536
@@ -680,9 +682,9 @@ The fine tuned settings can be found in the tasks section of the role
 
 ![tune_linux_sonarqube](Screenshots/tune_linux_sonarqube.png)
 
-**Update system packages and Install Java and other required packages**
+Update system packages and Install Java and other required packages
 ---
-Note that this step is already covered in the [sonarqube playbook](https://github.com/amadinathaniel/Devops-PBL/blob/main/Project-14/project14.md#sonarqube_playbook)
+Note that this step is already covered in the [sonarqube playbook](https://github.com/amadinathaniel/Devops-PBL/blob/main/Project-14/project14.md#step-3-configure-sonarqube)
 
 - Update and upgrade packages
 ```bash
@@ -711,9 +713,9 @@ sudo apt-get install openjdk-11-jre -y
 	java -version
 	```
 	
-**Install and Setup PostgreSQL 10 Database for SonarQube**
+Install and Setup PostgreSQL 10 Database for SonarQube
 ---
-Note that this step is already covered in the [sonarqube playbook](https://github.com/amadinathaniel/Devops-PBL/blob/main/Project-14/project14.md#sonarqube_playbook)
+Note that this step is already covered in the [sonarqube playbook](https://github.com/amadinathaniel/Devops-PBL/blob/main/Project-14/project14.md#step-3-configure-sonarqube)
 
 - Add PostgreSQL to repo list
 ```bash
@@ -782,9 +784,9 @@ createuser sonar
 exit
 ```
 
-**Install and configure SonarQube**
+Install and configure SonarQube
 ---
-Note that this step is already covered in the [sonarqube playbook](https://github.com/amadinathaniel/Devops-PBL/blob/main/Project-14/project14.md#sonarqube_playbook)
+Note that this step is already covered in the [sonarqube playbook](https://github.com/amadinathaniel/Devops-PBL/blob/main/Project-14/project14.md#step-3-configure-sonarqube)
 
 - Download temporary files to /tmp folder
 ```bash
@@ -897,7 +899,7 @@ sudo mv /opt/sonarqube-7.9.3 /opt/sonarqube
 		sudo systemctl status sonar
 		```
 
-**Access SonarQube**
+Access SonarQube
 ---
 - Access the SonarQube by going to http://<sonar-qube-ip>/9000, use admin as your username and password
 
@@ -1060,6 +1062,6 @@ e.g.   agent { label 'ansible-configured-agents' }
 
 ![phptodo_blue_ocean](Screenshots/phptodo_blue_ocean.png)
 
-[video submission]
+[video submission](https://drive.google.com/file/d/1p9gU3XtlwZEL7WjcSx9FeiTmpkvQqTmW/view?usp=sharing)
 
 [Back to top](#)
