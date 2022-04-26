@@ -463,9 +463,9 @@ rm -rf acs-config
 
 ![tooling_page](Screenshots/tooling_page.png)
 
-![wordpress_page](Screenshots/wordpress_page.png)
-
 - Navigate to the wordpress website with just the domain name,complete and confirm that the page loads and is accessible:
+
+![wordpress_page](Screenshots/wordpress_page.png)
 
 **Blockers:** 
 - Ensure that the "test" database for wordpress is created initially while creating the RDS instance or else the wordpress site won't load.
