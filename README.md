@@ -28,6 +28,8 @@
 - Project 13 - [Ansible Dynamic Assignments (Include) and Community Roles](Project-13/project13.md)
 
 - Project 14 - [Experience Continuous Integration With Jenkins | Ansible | Artifactory | Sonarqube | PHP](Project-14/project14.md)
+
+- Project 15 - [AWS Cloud Solution For 2 Company Websites Using A Reverse Proxy Technology](Project-15/project15.md)
 ---
 
 - Aux Project 1 - [Shell script to create linux users with initialized ssh profiles](https://github.com/amadinathaniel/auxillary-projects)
