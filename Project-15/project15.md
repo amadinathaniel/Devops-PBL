@@ -11,7 +11,7 @@ a decision has been made to use a reverse proxy technology from NGINX to achieve
 Cost, Security, and Scalability are the major requirements for this project. Hence, implementing the architecture designed below, ensure that infrastructure for both websites, 
 WordPress and Tooling, is resilient to Web Server’s failures, can accomodate to increased traffic and, at the same time, has reasonable cost.
 
-![project15_architecture](project15_architecture.png)
+![project15_architecture](Screenshots/project15_architecture.png)
 
 ## Domain Setup
 
@@ -315,7 +315,7 @@ systemctl restart httpd
 
 - Create an Automatic Scaling group and select desired capacity the matching launch template and target groups for the Wordpress, Bastion and Tooling.
 
-~[create_autoscaling_groups](Screenshots/create_autoscaling_groups.png)
+![create_autoscaling_groups](Screenshots/create_autoscaling_groups.png)
 
 ### Create Internal Load Balancer
 Navigate to the Load balancers and create an Internal Load Balancer
